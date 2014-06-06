@@ -1,20 +1,32 @@
-[0m[[0minfo[0m] [0mUpdating {file:/Users/gouravjeet/Documents/play-2.2.3/samples/NutriG/}nutrig...[0m
-[0m[[0mdebug[0m] [0m:: resolving dependencies :: forms#forms_2.10;1.0[0m
+[0m[[0minfo[0m] [0mUpdating {file:/Users/gouravjeet/Documents/play-2.2.3/nutrition/}nutrition...[0m
+[0m[[0mdebug[0m] [0m:: resolving dependencies :: default#nutrition_2.10;1.0-SNAPSHOT[0m
 [0m[[0mdebug[0m] [0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool][0m
 [0m[[0mdebug[0m] [0m	validate = true[0m
 [0m[[0mdebug[0m] [0m	refresh = false[0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for forms#forms_2.10;1.0 [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies forms#forms_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#nutrition_2.10;1.0-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#nutrition_2.10;1.0-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.10.3 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@208dcd41[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@25805bc[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.3[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#scala-library;2.10.3[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.10.3 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies forms#forms_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies forms#forms_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies forms#forms_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies forms#forms_2.10;1.0->com.typesafe.play#play_2.10;2.2.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#nutrition_2.10;1.0-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#nutrition_2.10;1.0-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#nutrition_2.10;1.0-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#nutrition_2.10;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.10;2.2.3 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.play#play-java-jdbc_2.10;2.2.3 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.play#play-java-jdbc_2.10;2.2.3 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.play#play-java-jdbc_2.10;2.2.3[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: com.typesafe.play#play-java-jdbc_2.10;2.2.3[0m
+[0m[[0mdebug[0m] [0m	found com.typesafe.play#play-java-jdbc_2.10;2.2.3 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-jdbc_2.10;2.2.3->com.typesafe.play#play-jdbc_2.10;2.2.3 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.play#play-jdbc_2.10;2.2.3 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.play#play-jdbc_2.10;2.2.3 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.play#play-jdbc_2.10;2.2.3[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: com.typesafe.play#play-jdbc_2.10;2.2.3[0m
+[0m[[0mdebug[0m] [0m	found com.typesafe.play#play-jdbc_2.10;2.2.3 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc_2.10;2.2.3->com.typesafe.play#play_2.10;2.2.3 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.typesafe.play#play_2.10;2.2.3 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.play#play_2.10;2.2.3 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.play#play_2.10;2.2.3[0m
@@ -525,7 +537,53 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.10;2.2.3->org.scala-lang#scala-reflect;2.10.3 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.10;2.2.3->org.scala-lang#scala-reflect;2.10.3 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.10;2.2.3->org.scala-lang#scala-reflect;2.10.3 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies forms#forms_2.10;1.0->com.typesafe.play#play-java_2.10;2.2.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc_2.10;2.2.3->com.jolbox#bonecp;0.8.0.RELEASE [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving com.jolbox#bonecp;0.8.0.RELEASE ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.jolbox#bonecp;0.8.0.RELEASE {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.jolbox#bonecp;0.8.0.RELEASE[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: com.jolbox#bonecp;0.8.0.RELEASE[0m
+[0m[[0mdebug[0m] [0m	found com.jolbox#bonecp;0.8.0.RELEASE in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc_2.10;2.2.3->com.jolbox#bonecp;0.8.0.RELEASE [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc_2.10;2.2.3->com.jolbox#bonecp;0.8.0.RELEASE [compile->compile][0m
+[0m[[0mdebug[0m] [0mexcluding dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.jolbox#bonecp;0.8.0.RELEASE->org.slf4j#slf4j-api;1.7.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mexcluding dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.jolbox#bonecp;0.8.0.RELEASE->org.slf4j#slf4j-api;1.7.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.jolbox#bonecp;0.8.0.RELEASE->org.slf4j#slf4j-api;1.7.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.jolbox#bonecp;0.8.0.RELEASE->org.slf4j#slf4j-api;1.7.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mexcluding dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in runtime[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.jolbox#bonecp;0.8.0.RELEASE->org.slf4j#slf4j-api;1.7.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.jolbox#bonecp;0.8.0.RELEASE->org.slf4j#slf4j-api;1.7.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.jolbox#bonecp;0.8.0.RELEASE->org.slf4j#slf4j-api;1.7.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc_2.10;2.2.3->com.jolbox#bonecp;0.8.0.RELEASE [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc_2.10;2.2.3->com.google.guava#guava;14.0.1 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving com.google.guava#guava;14.0.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.google.guava#guava;14.0.1 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.google.guava#guava;14.0.1[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: com.google.guava#guava;14.0.1[0m
+[0m[[0mdebug[0m] [0m	found com.google.guava#guava;14.0.1 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc_2.10;2.2.3->com.google.guava#guava;14.0.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc_2.10;2.2.3->com.google.guava#guava;14.0.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc_2.10;2.2.3->com.google.guava#guava;14.0.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc_2.10;2.2.3->com.h2database#h2;1.3.172 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving com.h2database#h2;1.3.172 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.h2database#h2;1.3.172 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.h2database#h2;1.3.172[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: com.h2database#h2;1.3.172[0m
+[0m[[0mdebug[0m] [0m	found com.h2database#h2;1.3.172 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc_2.10;2.2.3->com.h2database#h2;1.3.172 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc_2.10;2.2.3->com.h2database#h2;1.3.172 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc_2.10;2.2.3->com.h2database#h2;1.3.172 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc_2.10;2.2.3->tyrex#tyrex;1.0.1 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving tyrex#tyrex;1.0.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: tyrex#tyrex;1.0.1 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: tyrex#tyrex;1.0.1[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: tyrex#tyrex;1.0.1[0m
+[0m[[0mdebug[0m] [0m	found tyrex#tyrex;1.0.1 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc_2.10;2.2.3->tyrex#tyrex;1.0.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc_2.10;2.2.3->tyrex#tyrex;1.0.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc_2.10;2.2.3->tyrex#tyrex;1.0.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-jdbc_2.10;2.2.3->com.typesafe.play#play-java_2.10;2.2.3 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.typesafe.play#play-java_2.10;2.2.3 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.play#play-java_2.10;2.2.3 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.play#play-java_2.10;2.2.3[0m
@@ -624,11 +682,6 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.10;2.2.3->org.reflections#reflections;0.9.8 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.10;2.2.3->org.reflections#reflections;0.9.8 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.10;2.2.3->com.google.guava#guava;14.0.1 [compile->default(compile)][0m
-[0m[[0minfo[0m] [0mResolving com.google.guava#guava;14.0.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.google.guava#guava;14.0.1 {compile=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.google.guava#guava;14.0.1[0m
-[0m[[0mdebug[0m] [0m	local: revision in cache: com.google.guava#guava;14.0.1[0m
-[0m[[0mdebug[0m] [0m	found com.google.guava#guava;14.0.1 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.10;2.2.3->com.google.guava#guava;14.0.1 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.10;2.2.3->com.google.guava#guava;14.0.1 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.10;2.2.3->com.google.guava#guava;14.0.1 [compile->master][0m
@@ -650,14 +703,83 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.10;2.2.3->javax.servlet#javax.servlet-api;3.0.1 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.10;2.2.3->javax.servlet#javax.servlet-api;3.0.1 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.10;2.2.3->javax.servlet#javax.servlet-api;3.0.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-jdbc_2.10;2.2.3->org.scala-lang#scala-library;2.10.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-jdbc_2.10;2.2.3->org.scala-lang#scala-library;2.10.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-jdbc_2.10;2.2.3->org.scala-lang#scala-library;2.10.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-jdbc_2.10;2.2.3->org.scala-lang#scala-library;2.10.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#nutrition_2.10;1.0-SNAPSHOT->com.typesafe.play#play-java-ebean_2.10;2.2.3 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.play#play-java-ebean_2.10;2.2.3 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.play#play-java-ebean_2.10;2.2.3 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.play#play-java-ebean_2.10;2.2.3[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: com.typesafe.play#play-java-ebean_2.10;2.2.3[0m
+[0m[[0mdebug[0m] [0m	found com.typesafe.play#play-java-ebean_2.10;2.2.3 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ebean_2.10;2.2.3->com.typesafe.play#play-java-jdbc_2.10;2.2.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ebean_2.10;2.2.3->org.avaje.ebeanorm#avaje-ebeanorm;3.2.2 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.avaje.ebeanorm#avaje-ebeanorm;3.2.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.avaje.ebeanorm#avaje-ebeanorm;3.2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.avaje.ebeanorm#avaje-ebeanorm;3.2.2[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.avaje.ebeanorm#avaje-ebeanorm;3.2.2[0m
+[0m[[0mdebug[0m] [0m	found org.avaje.ebeanorm#avaje-ebeanorm;3.2.2 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ebean_2.10;2.2.3->org.avaje.ebeanorm#avaje-ebeanorm;3.2.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ebean_2.10;2.2.3->org.avaje.ebeanorm#avaje-ebeanorm;3.2.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0mexcluding dependency: javax.persistence#persistence-api;1.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
+[0m[[0mdebug[0m] [0mexcluding dependency: javax.persistence#persistence-api;1.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in runtime[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ebean_2.10;2.2.3->org.avaje.ebeanorm#avaje-ebeanorm;3.2.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ebean_2.10;2.2.3->org.avaje.ebeanorm#avaje-ebeanorm-agent;3.2.1 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.avaje.ebeanorm#avaje-ebeanorm-agent;3.2.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.avaje.ebeanorm#avaje-ebeanorm-agent;3.2.1 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.avaje.ebeanorm#avaje-ebeanorm-agent;3.2.1[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.avaje.ebeanorm#avaje-ebeanorm-agent;3.2.1[0m
+[0m[[0mdebug[0m] [0m	found org.avaje.ebeanorm#avaje-ebeanorm-agent;3.2.1 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ebean_2.10;2.2.3->org.avaje.ebeanorm#avaje-ebeanorm-agent;3.2.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ebean_2.10;2.2.3->org.avaje.ebeanorm#avaje-ebeanorm-agent;3.2.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ebean_2.10;2.2.3->org.avaje.ebeanorm#avaje-ebeanorm-agent;3.2.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ebean_2.10;2.2.3->org.hibernate.javax.persistence#hibernate-jpa-2.0-api;1.0.1.Final [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.hibernate.javax.persistence#hibernate-jpa-2.0-api;1.0.1.Final ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.hibernate.javax.persistence#hibernate-jpa-2.0-api;1.0.1.Final {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.hibernate.javax.persistence#hibernate-jpa-2.0-api;1.0.1.Final[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.hibernate.javax.persistence#hibernate-jpa-2.0-api;1.0.1.Final[0m
+[0m[[0mdebug[0m] [0m	found org.hibernate.javax.persistence#hibernate-jpa-2.0-api;1.0.1.Final in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ebean_2.10;2.2.3->org.hibernate.javax.persistence#hibernate-jpa-2.0-api;1.0.1.Final [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ebean_2.10;2.2.3->org.hibernate.javax.persistence#hibernate-jpa-2.0-api;1.0.1.Final [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ebean_2.10;2.2.3->org.hibernate.javax.persistence#hibernate-jpa-2.0-api;1.0.1.Final [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#nutrition_2.10;1.0-SNAPSHOT->com.typesafe.play#play-cache_2.10;2.2.3 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.play#play-cache_2.10;2.2.3 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.play#play-cache_2.10;2.2.3 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.play#play-cache_2.10;2.2.3[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: com.typesafe.play#play-cache_2.10;2.2.3[0m
+[0m[[0mdebug[0m] [0m	found com.typesafe.play#play-cache_2.10;2.2.3 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-cache_2.10;2.2.3->com.typesafe.play#play_2.10;2.2.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-cache_2.10;2.2.3->net.sf.ehcache#ehcache-core;2.6.6 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving net.sf.ehcache#ehcache-core;2.6.6 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: net.sf.ehcache#ehcache-core;2.6.6 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: net.sf.ehcache#ehcache-core;2.6.6[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: net.sf.ehcache#ehcache-core;2.6.6[0m
+[0m[[0mdebug[0m] [0m	found net.sf.ehcache#ehcache-core;2.6.6 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-cache_2.10;2.2.3->net.sf.ehcache#ehcache-core;2.6.6 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-cache_2.10;2.2.3->net.sf.ehcache#ehcache-core;2.6.6 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.sf.ehcache#ehcache-core;2.6.6->org.slf4j#slf4j-api;1.6.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.hibernate#hibernate-core;3.5.1-Final {provided=[compile(*), provided(*), runtime(*), master(*)]} => dependency: org.hibernate#hibernate-core;3.3.2.GA {provided=[compile(*), provided(*), runtime(*), master(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-logging#commons-logging;1.1.1 {test=[runtime(*), master(*)]} => dependency: commons-logging#commons-logging;1.0.4 {test=[runtime(*), master(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.sf.ehcache#ehcache-core;2.6.6->org.slf4j#slf4j-api;1.7.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.sf.ehcache#ehcache-core;2.6.6->org.slf4j#slf4j-api;1.6.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.sf.ehcache#ehcache-core;2.6.6->org.slf4j#slf4j-api;1.7.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.sf.ehcache#ehcache-core;2.6.6->org.slf4j#slf4j-api;1.6.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.sf.ehcache#ehcache-core;2.6.6->org.slf4j#slf4j-api;1.7.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.sf.ehcache#ehcache-core;2.6.6->org.slf4j#slf4j-api;1.7.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-cache_2.10;2.2.3->net.sf.ehcache#ehcache-core;2.6.6 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#nutrition_2.10;1.0-SNAPSHOT->com.typesafe.play#play_2.10;2.2.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#nutrition_2.10;1.0-SNAPSHOT->com.typesafe.play#play-java_2.10;2.2.3 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for forms#forms_2.10;1.0 [runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for forms#forms_2.10;1.0 [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies forms#forms_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies forms#forms_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies forms#forms_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies forms#forms_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies forms#forms_2.10;1.0->com.typesafe.play#play_2.10;2.2.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#nutrition_2.10;1.0-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#nutrition_2.10;1.0-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#nutrition_2.10;1.0-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#nutrition_2.10;1.0-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#nutrition_2.10;1.0-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#nutrition_2.10;1.0-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#nutrition_2.10;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.10;2.2.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-jdbc_2.10;2.2.3->com.typesafe.play#play-jdbc_2.10;2.2.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc_2.10;2.2.3->com.typesafe.play#play_2.10;2.2.3 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.10;2.2.3->com.typesafe.play#sbt-link;2.2.3 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#sbt-link;2.2.3->org.javassist#javassist;3.18.0-GA [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#sbt-link;2.2.3->org.javassist#javassist;3.18.0-GA [compile->runtime][0m
@@ -962,7 +1084,33 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.10;2.2.3->org.scala-lang#scala-reflect;2.10.3 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.10;2.2.3->org.scala-lang#scala-reflect;2.10.3 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.10;2.2.3->org.scala-lang#scala-reflect;2.10.3 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies forms#forms_2.10;1.0->com.typesafe.play#play-java_2.10;2.2.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc_2.10;2.2.3->com.jolbox#bonecp;0.8.0.RELEASE [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc_2.10;2.2.3->com.jolbox#bonecp;0.8.0.RELEASE [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc_2.10;2.2.3->com.jolbox#bonecp;0.8.0.RELEASE [compile->compile][0m
+[0m[[0mdebug[0m] [0mexcluding dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.jolbox#bonecp;0.8.0.RELEASE->org.slf4j#slf4j-api;1.7.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mexcluding dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.jolbox#bonecp;0.8.0.RELEASE->org.slf4j#slf4j-api;1.7.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.jolbox#bonecp;0.8.0.RELEASE->org.slf4j#slf4j-api;1.7.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.jolbox#bonecp;0.8.0.RELEASE->org.slf4j#slf4j-api;1.7.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mexcluding dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in runtime[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.jolbox#bonecp;0.8.0.RELEASE->org.slf4j#slf4j-api;1.7.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.jolbox#bonecp;0.8.0.RELEASE->org.slf4j#slf4j-api;1.7.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.jolbox#bonecp;0.8.0.RELEASE->org.slf4j#slf4j-api;1.7.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc_2.10;2.2.3->com.jolbox#bonecp;0.8.0.RELEASE [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc_2.10;2.2.3->com.google.guava#guava;14.0.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc_2.10;2.2.3->com.google.guava#guava;14.0.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc_2.10;2.2.3->com.google.guava#guava;14.0.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc_2.10;2.2.3->com.google.guava#guava;14.0.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc_2.10;2.2.3->com.h2database#h2;1.3.172 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc_2.10;2.2.3->com.h2database#h2;1.3.172 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc_2.10;2.2.3->com.h2database#h2;1.3.172 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc_2.10;2.2.3->com.h2database#h2;1.3.172 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc_2.10;2.2.3->tyrex#tyrex;1.0.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc_2.10;2.2.3->tyrex#tyrex;1.0.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc_2.10;2.2.3->tyrex#tyrex;1.0.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc_2.10;2.2.3->tyrex#tyrex;1.0.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-jdbc_2.10;2.2.3->com.typesafe.play#play-java_2.10;2.2.3 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.10;2.2.3->com.typesafe.play#play_2.10;2.2.3 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.10;2.2.3->org.yaml#snakeyaml;1.12 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.10;2.2.3->org.yaml#snakeyaml;1.12 [compile->runtime][0m
@@ -1022,15 +1170,54 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.10;2.2.3->javax.servlet#javax.servlet-api;3.0.1 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.10;2.2.3->javax.servlet#javax.servlet-api;3.0.1 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.10;2.2.3->javax.servlet#javax.servlet-api;3.0.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-jdbc_2.10;2.2.3->org.scala-lang#scala-library;2.10.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-jdbc_2.10;2.2.3->org.scala-lang#scala-library;2.10.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-jdbc_2.10;2.2.3->org.scala-lang#scala-library;2.10.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-jdbc_2.10;2.2.3->org.scala-lang#scala-library;2.10.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#nutrition_2.10;1.0-SNAPSHOT->com.typesafe.play#play-java-ebean_2.10;2.2.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ebean_2.10;2.2.3->com.typesafe.play#play-java-jdbc_2.10;2.2.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ebean_2.10;2.2.3->org.avaje.ebeanorm#avaje-ebeanorm;3.2.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ebean_2.10;2.2.3->org.avaje.ebeanorm#avaje-ebeanorm;3.2.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ebean_2.10;2.2.3->org.avaje.ebeanorm#avaje-ebeanorm;3.2.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0mexcluding dependency: javax.persistence#persistence-api;1.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
+[0m[[0mdebug[0m] [0mexcluding dependency: javax.persistence#persistence-api;1.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in runtime[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ebean_2.10;2.2.3->org.avaje.ebeanorm#avaje-ebeanorm;3.2.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ebean_2.10;2.2.3->org.avaje.ebeanorm#avaje-ebeanorm-agent;3.2.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ebean_2.10;2.2.3->org.avaje.ebeanorm#avaje-ebeanorm-agent;3.2.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ebean_2.10;2.2.3->org.avaje.ebeanorm#avaje-ebeanorm-agent;3.2.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ebean_2.10;2.2.3->org.avaje.ebeanorm#avaje-ebeanorm-agent;3.2.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ebean_2.10;2.2.3->org.hibernate.javax.persistence#hibernate-jpa-2.0-api;1.0.1.Final [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ebean_2.10;2.2.3->org.hibernate.javax.persistence#hibernate-jpa-2.0-api;1.0.1.Final [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ebean_2.10;2.2.3->org.hibernate.javax.persistence#hibernate-jpa-2.0-api;1.0.1.Final [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ebean_2.10;2.2.3->org.hibernate.javax.persistence#hibernate-jpa-2.0-api;1.0.1.Final [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#nutrition_2.10;1.0-SNAPSHOT->com.typesafe.play#play-cache_2.10;2.2.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-cache_2.10;2.2.3->com.typesafe.play#play_2.10;2.2.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-cache_2.10;2.2.3->net.sf.ehcache#ehcache-core;2.6.6 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-cache_2.10;2.2.3->net.sf.ehcache#ehcache-core;2.6.6 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-cache_2.10;2.2.3->net.sf.ehcache#ehcache-core;2.6.6 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.sf.ehcache#ehcache-core;2.6.6->org.slf4j#slf4j-api;1.6.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.hibernate#hibernate-core;3.5.1-Final {provided=[compile(*), provided(*), runtime(*), master(*)]} => dependency: org.hibernate#hibernate-core;3.3.2.GA {provided=[compile(*), provided(*), runtime(*), master(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-logging#commons-logging;1.1.1 {test=[runtime(*), master(*)]} => dependency: commons-logging#commons-logging;1.0.4 {test=[runtime(*), master(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.sf.ehcache#ehcache-core;2.6.6->org.slf4j#slf4j-api;1.7.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.sf.ehcache#ehcache-core;2.6.6->org.slf4j#slf4j-api;1.6.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.sf.ehcache#ehcache-core;2.6.6->org.slf4j#slf4j-api;1.7.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.sf.ehcache#ehcache-core;2.6.6->org.slf4j#slf4j-api;1.6.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.sf.ehcache#ehcache-core;2.6.6->org.slf4j#slf4j-api;1.7.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.sf.ehcache#ehcache-core;2.6.6->org.slf4j#slf4j-api;1.7.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-cache_2.10;2.2.3->net.sf.ehcache#ehcache-core;2.6.6 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#nutrition_2.10;1.0-SNAPSHOT->com.typesafe.play#play_2.10;2.2.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#nutrition_2.10;1.0-SNAPSHOT->com.typesafe.play#play-java_2.10;2.2.3 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for forms#forms_2.10;1.0 [test][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for forms#forms_2.10;1.0 [runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for forms#forms_2.10;1.0 [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies forms#forms_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies forms#forms_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies forms#forms_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies forms#forms_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies forms#forms_2.10;1.0->com.typesafe.play#play_2.10;2.2.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#nutrition_2.10;1.0-SNAPSHOT [test][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#nutrition_2.10;1.0-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#nutrition_2.10;1.0-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#nutrition_2.10;1.0-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#nutrition_2.10;1.0-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#nutrition_2.10;1.0-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#nutrition_2.10;1.0-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#nutrition_2.10;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.10;2.2.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-jdbc_2.10;2.2.3->com.typesafe.play#play-jdbc_2.10;2.2.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc_2.10;2.2.3->com.typesafe.play#play_2.10;2.2.3 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.10;2.2.3->com.typesafe.play#sbt-link;2.2.3 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#sbt-link;2.2.3->org.javassist#javassist;3.18.0-GA [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#sbt-link;2.2.3->org.javassist#javassist;3.18.0-GA [compile->runtime][0m
@@ -1335,7 +1522,33 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.10;2.2.3->org.scala-lang#scala-reflect;2.10.3 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.10;2.2.3->org.scala-lang#scala-reflect;2.10.3 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.10;2.2.3->org.scala-lang#scala-reflect;2.10.3 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies forms#forms_2.10;1.0->com.typesafe.play#play-java_2.10;2.2.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc_2.10;2.2.3->com.jolbox#bonecp;0.8.0.RELEASE [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc_2.10;2.2.3->com.jolbox#bonecp;0.8.0.RELEASE [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc_2.10;2.2.3->com.jolbox#bonecp;0.8.0.RELEASE [compile->compile][0m
+[0m[[0mdebug[0m] [0mexcluding dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.jolbox#bonecp;0.8.0.RELEASE->org.slf4j#slf4j-api;1.7.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mexcluding dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.jolbox#bonecp;0.8.0.RELEASE->org.slf4j#slf4j-api;1.7.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.jolbox#bonecp;0.8.0.RELEASE->org.slf4j#slf4j-api;1.7.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.jolbox#bonecp;0.8.0.RELEASE->org.slf4j#slf4j-api;1.7.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mexcluding dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in runtime[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.jolbox#bonecp;0.8.0.RELEASE->org.slf4j#slf4j-api;1.7.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.jolbox#bonecp;0.8.0.RELEASE->org.slf4j#slf4j-api;1.7.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.jolbox#bonecp;0.8.0.RELEASE->org.slf4j#slf4j-api;1.7.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc_2.10;2.2.3->com.jolbox#bonecp;0.8.0.RELEASE [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc_2.10;2.2.3->com.google.guava#guava;14.0.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc_2.10;2.2.3->com.google.guava#guava;14.0.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc_2.10;2.2.3->com.google.guava#guava;14.0.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc_2.10;2.2.3->com.google.guava#guava;14.0.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc_2.10;2.2.3->com.h2database#h2;1.3.172 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc_2.10;2.2.3->com.h2database#h2;1.3.172 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc_2.10;2.2.3->com.h2database#h2;1.3.172 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc_2.10;2.2.3->com.h2database#h2;1.3.172 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc_2.10;2.2.3->tyrex#tyrex;1.0.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc_2.10;2.2.3->tyrex#tyrex;1.0.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc_2.10;2.2.3->tyrex#tyrex;1.0.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc_2.10;2.2.3->tyrex#tyrex;1.0.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-jdbc_2.10;2.2.3->com.typesafe.play#play-java_2.10;2.2.3 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.10;2.2.3->com.typesafe.play#play_2.10;2.2.3 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.10;2.2.3->org.yaml#snakeyaml;1.12 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.10;2.2.3->org.yaml#snakeyaml;1.12 [compile->runtime][0m
@@ -1395,7 +1608,44 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.10;2.2.3->javax.servlet#javax.servlet-api;3.0.1 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.10;2.2.3->javax.servlet#javax.servlet-api;3.0.1 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.10;2.2.3->javax.servlet#javax.servlet-api;3.0.1 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies forms#forms_2.10;1.0->com.typesafe.play#play-test_2.10;2.2.3 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-jdbc_2.10;2.2.3->org.scala-lang#scala-library;2.10.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-jdbc_2.10;2.2.3->org.scala-lang#scala-library;2.10.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-jdbc_2.10;2.2.3->org.scala-lang#scala-library;2.10.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-jdbc_2.10;2.2.3->org.scala-lang#scala-library;2.10.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#nutrition_2.10;1.0-SNAPSHOT->com.typesafe.play#play-java-ebean_2.10;2.2.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ebean_2.10;2.2.3->com.typesafe.play#play-java-jdbc_2.10;2.2.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ebean_2.10;2.2.3->org.avaje.ebeanorm#avaje-ebeanorm;3.2.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ebean_2.10;2.2.3->org.avaje.ebeanorm#avaje-ebeanorm;3.2.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ebean_2.10;2.2.3->org.avaje.ebeanorm#avaje-ebeanorm;3.2.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0mexcluding dependency: javax.persistence#persistence-api;1.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
+[0m[[0mdebug[0m] [0mexcluding dependency: javax.persistence#persistence-api;1.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in runtime[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ebean_2.10;2.2.3->org.avaje.ebeanorm#avaje-ebeanorm;3.2.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ebean_2.10;2.2.3->org.avaje.ebeanorm#avaje-ebeanorm-agent;3.2.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ebean_2.10;2.2.3->org.avaje.ebeanorm#avaje-ebeanorm-agent;3.2.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ebean_2.10;2.2.3->org.avaje.ebeanorm#avaje-ebeanorm-agent;3.2.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ebean_2.10;2.2.3->org.avaje.ebeanorm#avaje-ebeanorm-agent;3.2.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ebean_2.10;2.2.3->org.hibernate.javax.persistence#hibernate-jpa-2.0-api;1.0.1.Final [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ebean_2.10;2.2.3->org.hibernate.javax.persistence#hibernate-jpa-2.0-api;1.0.1.Final [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ebean_2.10;2.2.3->org.hibernate.javax.persistence#hibernate-jpa-2.0-api;1.0.1.Final [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ebean_2.10;2.2.3->org.hibernate.javax.persistence#hibernate-jpa-2.0-api;1.0.1.Final [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#nutrition_2.10;1.0-SNAPSHOT->com.typesafe.play#play-cache_2.10;2.2.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-cache_2.10;2.2.3->com.typesafe.play#play_2.10;2.2.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-cache_2.10;2.2.3->net.sf.ehcache#ehcache-core;2.6.6 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-cache_2.10;2.2.3->net.sf.ehcache#ehcache-core;2.6.6 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-cache_2.10;2.2.3->net.sf.ehcache#ehcache-core;2.6.6 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.sf.ehcache#ehcache-core;2.6.6->org.slf4j#slf4j-api;1.6.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.hibernate#hibernate-core;3.5.1-Final {provided=[compile(*), provided(*), runtime(*), master(*)]} => dependency: org.hibernate#hibernate-core;3.3.2.GA {provided=[compile(*), provided(*), runtime(*), master(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-logging#commons-logging;1.1.1 {test=[runtime(*), master(*)]} => dependency: commons-logging#commons-logging;1.0.4 {test=[runtime(*), master(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.sf.ehcache#ehcache-core;2.6.6->org.slf4j#slf4j-api;1.7.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.sf.ehcache#ehcache-core;2.6.6->org.slf4j#slf4j-api;1.6.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.sf.ehcache#ehcache-core;2.6.6->org.slf4j#slf4j-api;1.7.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.sf.ehcache#ehcache-core;2.6.6->org.slf4j#slf4j-api;1.6.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.sf.ehcache#ehcache-core;2.6.6->org.slf4j#slf4j-api;1.7.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.sf.ehcache#ehcache-core;2.6.6->org.slf4j#slf4j-api;1.7.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-cache_2.10;2.2.3->net.sf.ehcache#ehcache-core;2.6.6 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#nutrition_2.10;1.0-SNAPSHOT->com.typesafe.play#play_2.10;2.2.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#nutrition_2.10;1.0-SNAPSHOT->com.typesafe.play#play-java_2.10;2.2.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#nutrition_2.10;1.0-SNAPSHOT->com.typesafe.play#play-test_2.10;2.2.3 [test->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.typesafe.play#play-test_2.10;2.2.3 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.play#play-test_2.10;2.2.3 {test=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.play#play-test_2.10;2.2.3[0m
@@ -2332,17 +2582,19 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.fluentlenium#fluentlenium-festassert;0.8.0->org.easytesting#fest-assert;1.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-test_2.10;2.2.3->org.fluentlenium#fluentlenium-festassert;0.8.0 [compile->master][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'provided'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for forms#forms_2.10;1.0 [provided][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#nutrition_2.10;1.0-SNAPSHOT [provided][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'optional'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for forms#forms_2.10;1.0 [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#nutrition_2.10;1.0-SNAPSHOT [optional][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile-internal'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for forms#forms_2.10;1.0 [compile-internal][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for forms#forms_2.10;1.0 [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies forms#forms_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies forms#forms_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies forms#forms_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies forms#forms_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies forms#forms_2.10;1.0->com.typesafe.play#play_2.10;2.2.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#nutrition_2.10;1.0-SNAPSHOT [compile-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#nutrition_2.10;1.0-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#nutrition_2.10;1.0-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#nutrition_2.10;1.0-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#nutrition_2.10;1.0-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#nutrition_2.10;1.0-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#nutrition_2.10;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.10;2.2.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-jdbc_2.10;2.2.3->com.typesafe.play#play-jdbc_2.10;2.2.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc_2.10;2.2.3->com.typesafe.play#play_2.10;2.2.3 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.10;2.2.3->com.typesafe.play#sbt-link;2.2.3 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#sbt-link;2.2.3->org.javassist#javassist;3.18.0-GA [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#sbt-link;2.2.3->org.javassist#javassist;3.18.0-GA [compile->runtime][0m
@@ -2647,7 +2899,33 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.10;2.2.3->org.scala-lang#scala-reflect;2.10.3 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.10;2.2.3->org.scala-lang#scala-reflect;2.10.3 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.10;2.2.3->org.scala-lang#scala-reflect;2.10.3 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies forms#forms_2.10;1.0->com.typesafe.play#play-java_2.10;2.2.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc_2.10;2.2.3->com.jolbox#bonecp;0.8.0.RELEASE [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc_2.10;2.2.3->com.jolbox#bonecp;0.8.0.RELEASE [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc_2.10;2.2.3->com.jolbox#bonecp;0.8.0.RELEASE [compile->compile][0m
+[0m[[0mdebug[0m] [0mexcluding dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.jolbox#bonecp;0.8.0.RELEASE->org.slf4j#slf4j-api;1.7.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mexcluding dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.jolbox#bonecp;0.8.0.RELEASE->org.slf4j#slf4j-api;1.7.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.jolbox#bonecp;0.8.0.RELEASE->org.slf4j#slf4j-api;1.7.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.jolbox#bonecp;0.8.0.RELEASE->org.slf4j#slf4j-api;1.7.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mexcluding dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in runtime[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.jolbox#bonecp;0.8.0.RELEASE->org.slf4j#slf4j-api;1.7.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.jolbox#bonecp;0.8.0.RELEASE->org.slf4j#slf4j-api;1.7.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.jolbox#bonecp;0.8.0.RELEASE->org.slf4j#slf4j-api;1.7.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc_2.10;2.2.3->com.jolbox#bonecp;0.8.0.RELEASE [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc_2.10;2.2.3->com.google.guava#guava;14.0.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc_2.10;2.2.3->com.google.guava#guava;14.0.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc_2.10;2.2.3->com.google.guava#guava;14.0.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc_2.10;2.2.3->com.google.guava#guava;14.0.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc_2.10;2.2.3->com.h2database#h2;1.3.172 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc_2.10;2.2.3->com.h2database#h2;1.3.172 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc_2.10;2.2.3->com.h2database#h2;1.3.172 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc_2.10;2.2.3->com.h2database#h2;1.3.172 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc_2.10;2.2.3->tyrex#tyrex;1.0.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc_2.10;2.2.3->tyrex#tyrex;1.0.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc_2.10;2.2.3->tyrex#tyrex;1.0.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc_2.10;2.2.3->tyrex#tyrex;1.0.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-jdbc_2.10;2.2.3->com.typesafe.play#play-java_2.10;2.2.3 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.10;2.2.3->com.typesafe.play#play_2.10;2.2.3 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.10;2.2.3->org.yaml#snakeyaml;1.12 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.10;2.2.3->org.yaml#snakeyaml;1.12 [compile->runtime][0m
@@ -2707,17 +2985,56 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.10;2.2.3->javax.servlet#javax.servlet-api;3.0.1 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.10;2.2.3->javax.servlet#javax.servlet-api;3.0.1 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.10;2.2.3->javax.servlet#javax.servlet-api;3.0.1 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for forms#forms_2.10;1.0 [optional][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for forms#forms_2.10;1.0 [provided][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-jdbc_2.10;2.2.3->org.scala-lang#scala-library;2.10.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-jdbc_2.10;2.2.3->org.scala-lang#scala-library;2.10.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-jdbc_2.10;2.2.3->org.scala-lang#scala-library;2.10.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-jdbc_2.10;2.2.3->org.scala-lang#scala-library;2.10.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#nutrition_2.10;1.0-SNAPSHOT->com.typesafe.play#play-java-ebean_2.10;2.2.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ebean_2.10;2.2.3->com.typesafe.play#play-java-jdbc_2.10;2.2.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ebean_2.10;2.2.3->org.avaje.ebeanorm#avaje-ebeanorm;3.2.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ebean_2.10;2.2.3->org.avaje.ebeanorm#avaje-ebeanorm;3.2.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ebean_2.10;2.2.3->org.avaje.ebeanorm#avaje-ebeanorm;3.2.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0mexcluding dependency: javax.persistence#persistence-api;1.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
+[0m[[0mdebug[0m] [0mexcluding dependency: javax.persistence#persistence-api;1.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in runtime[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ebean_2.10;2.2.3->org.avaje.ebeanorm#avaje-ebeanorm;3.2.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ebean_2.10;2.2.3->org.avaje.ebeanorm#avaje-ebeanorm-agent;3.2.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ebean_2.10;2.2.3->org.avaje.ebeanorm#avaje-ebeanorm-agent;3.2.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ebean_2.10;2.2.3->org.avaje.ebeanorm#avaje-ebeanorm-agent;3.2.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ebean_2.10;2.2.3->org.avaje.ebeanorm#avaje-ebeanorm-agent;3.2.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ebean_2.10;2.2.3->org.hibernate.javax.persistence#hibernate-jpa-2.0-api;1.0.1.Final [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ebean_2.10;2.2.3->org.hibernate.javax.persistence#hibernate-jpa-2.0-api;1.0.1.Final [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ebean_2.10;2.2.3->org.hibernate.javax.persistence#hibernate-jpa-2.0-api;1.0.1.Final [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ebean_2.10;2.2.3->org.hibernate.javax.persistence#hibernate-jpa-2.0-api;1.0.1.Final [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#nutrition_2.10;1.0-SNAPSHOT->com.typesafe.play#play-cache_2.10;2.2.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-cache_2.10;2.2.3->com.typesafe.play#play_2.10;2.2.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-cache_2.10;2.2.3->net.sf.ehcache#ehcache-core;2.6.6 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-cache_2.10;2.2.3->net.sf.ehcache#ehcache-core;2.6.6 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-cache_2.10;2.2.3->net.sf.ehcache#ehcache-core;2.6.6 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.sf.ehcache#ehcache-core;2.6.6->org.slf4j#slf4j-api;1.6.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.hibernate#hibernate-core;3.5.1-Final {provided=[compile(*), provided(*), runtime(*), master(*)]} => dependency: org.hibernate#hibernate-core;3.3.2.GA {provided=[compile(*), provided(*), runtime(*), master(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-logging#commons-logging;1.1.1 {test=[runtime(*), master(*)]} => dependency: commons-logging#commons-logging;1.0.4 {test=[runtime(*), master(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.sf.ehcache#ehcache-core;2.6.6->org.slf4j#slf4j-api;1.7.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.sf.ehcache#ehcache-core;2.6.6->org.slf4j#slf4j-api;1.6.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.sf.ehcache#ehcache-core;2.6.6->org.slf4j#slf4j-api;1.7.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.sf.ehcache#ehcache-core;2.6.6->org.slf4j#slf4j-api;1.6.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.sf.ehcache#ehcache-core;2.6.6->org.slf4j#slf4j-api;1.7.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.sf.ehcache#ehcache-core;2.6.6->org.slf4j#slf4j-api;1.7.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-cache_2.10;2.2.3->net.sf.ehcache#ehcache-core;2.6.6 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#nutrition_2.10;1.0-SNAPSHOT->com.typesafe.play#play_2.10;2.2.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#nutrition_2.10;1.0-SNAPSHOT->com.typesafe.play#play-java_2.10;2.2.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#nutrition_2.10;1.0-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#nutrition_2.10;1.0-SNAPSHOT [provided][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime-internal'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for forms#forms_2.10;1.0 [runtime-internal][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for forms#forms_2.10;1.0 [runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for forms#forms_2.10;1.0 [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies forms#forms_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies forms#forms_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies forms#forms_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies forms#forms_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies forms#forms_2.10;1.0->com.typesafe.play#play_2.10;2.2.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#nutrition_2.10;1.0-SNAPSHOT [runtime-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#nutrition_2.10;1.0-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#nutrition_2.10;1.0-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#nutrition_2.10;1.0-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#nutrition_2.10;1.0-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#nutrition_2.10;1.0-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#nutrition_2.10;1.0-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#nutrition_2.10;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.10;2.2.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-jdbc_2.10;2.2.3->com.typesafe.play#play-jdbc_2.10;2.2.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc_2.10;2.2.3->com.typesafe.play#play_2.10;2.2.3 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.10;2.2.3->com.typesafe.play#sbt-link;2.2.3 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#sbt-link;2.2.3->org.javassist#javassist;3.18.0-GA [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#sbt-link;2.2.3->org.javassist#javassist;3.18.0-GA [compile->runtime][0m
@@ -3022,7 +3339,33 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.10;2.2.3->org.scala-lang#scala-reflect;2.10.3 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.10;2.2.3->org.scala-lang#scala-reflect;2.10.3 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.10;2.2.3->org.scala-lang#scala-reflect;2.10.3 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies forms#forms_2.10;1.0->com.typesafe.play#play-java_2.10;2.2.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc_2.10;2.2.3->com.jolbox#bonecp;0.8.0.RELEASE [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc_2.10;2.2.3->com.jolbox#bonecp;0.8.0.RELEASE [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc_2.10;2.2.3->com.jolbox#bonecp;0.8.0.RELEASE [compile->compile][0m
+[0m[[0mdebug[0m] [0mexcluding dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.jolbox#bonecp;0.8.0.RELEASE->org.slf4j#slf4j-api;1.7.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mexcluding dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.jolbox#bonecp;0.8.0.RELEASE->org.slf4j#slf4j-api;1.7.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.jolbox#bonecp;0.8.0.RELEASE->org.slf4j#slf4j-api;1.7.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.jolbox#bonecp;0.8.0.RELEASE->org.slf4j#slf4j-api;1.7.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mexcluding dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in runtime[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.jolbox#bonecp;0.8.0.RELEASE->org.slf4j#slf4j-api;1.7.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.jolbox#bonecp;0.8.0.RELEASE->org.slf4j#slf4j-api;1.7.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.jolbox#bonecp;0.8.0.RELEASE->org.slf4j#slf4j-api;1.7.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc_2.10;2.2.3->com.jolbox#bonecp;0.8.0.RELEASE [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc_2.10;2.2.3->com.google.guava#guava;14.0.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc_2.10;2.2.3->com.google.guava#guava;14.0.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc_2.10;2.2.3->com.google.guava#guava;14.0.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc_2.10;2.2.3->com.google.guava#guava;14.0.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc_2.10;2.2.3->com.h2database#h2;1.3.172 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc_2.10;2.2.3->com.h2database#h2;1.3.172 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc_2.10;2.2.3->com.h2database#h2;1.3.172 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc_2.10;2.2.3->com.h2database#h2;1.3.172 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc_2.10;2.2.3->tyrex#tyrex;1.0.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc_2.10;2.2.3->tyrex#tyrex;1.0.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc_2.10;2.2.3->tyrex#tyrex;1.0.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc_2.10;2.2.3->tyrex#tyrex;1.0.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-jdbc_2.10;2.2.3->com.typesafe.play#play-java_2.10;2.2.3 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.10;2.2.3->com.typesafe.play#play_2.10;2.2.3 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.10;2.2.3->org.yaml#snakeyaml;1.12 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.10;2.2.3->org.yaml#snakeyaml;1.12 [compile->runtime][0m
@@ -3082,17 +3425,56 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.10;2.2.3->javax.servlet#javax.servlet-api;3.0.1 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.10;2.2.3->javax.servlet#javax.servlet-api;3.0.1 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.10;2.2.3->javax.servlet#javax.servlet-api;3.0.1 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for forms#forms_2.10;1.0 [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-jdbc_2.10;2.2.3->org.scala-lang#scala-library;2.10.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-jdbc_2.10;2.2.3->org.scala-lang#scala-library;2.10.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-jdbc_2.10;2.2.3->org.scala-lang#scala-library;2.10.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-jdbc_2.10;2.2.3->org.scala-lang#scala-library;2.10.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#nutrition_2.10;1.0-SNAPSHOT->com.typesafe.play#play-java-ebean_2.10;2.2.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ebean_2.10;2.2.3->com.typesafe.play#play-java-jdbc_2.10;2.2.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ebean_2.10;2.2.3->org.avaje.ebeanorm#avaje-ebeanorm;3.2.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ebean_2.10;2.2.3->org.avaje.ebeanorm#avaje-ebeanorm;3.2.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ebean_2.10;2.2.3->org.avaje.ebeanorm#avaje-ebeanorm;3.2.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0mexcluding dependency: javax.persistence#persistence-api;1.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
+[0m[[0mdebug[0m] [0mexcluding dependency: javax.persistence#persistence-api;1.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in runtime[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ebean_2.10;2.2.3->org.avaje.ebeanorm#avaje-ebeanorm;3.2.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ebean_2.10;2.2.3->org.avaje.ebeanorm#avaje-ebeanorm-agent;3.2.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ebean_2.10;2.2.3->org.avaje.ebeanorm#avaje-ebeanorm-agent;3.2.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ebean_2.10;2.2.3->org.avaje.ebeanorm#avaje-ebeanorm-agent;3.2.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ebean_2.10;2.2.3->org.avaje.ebeanorm#avaje-ebeanorm-agent;3.2.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ebean_2.10;2.2.3->org.hibernate.javax.persistence#hibernate-jpa-2.0-api;1.0.1.Final [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ebean_2.10;2.2.3->org.hibernate.javax.persistence#hibernate-jpa-2.0-api;1.0.1.Final [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ebean_2.10;2.2.3->org.hibernate.javax.persistence#hibernate-jpa-2.0-api;1.0.1.Final [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ebean_2.10;2.2.3->org.hibernate.javax.persistence#hibernate-jpa-2.0-api;1.0.1.Final [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#nutrition_2.10;1.0-SNAPSHOT->com.typesafe.play#play-cache_2.10;2.2.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-cache_2.10;2.2.3->com.typesafe.play#play_2.10;2.2.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-cache_2.10;2.2.3->net.sf.ehcache#ehcache-core;2.6.6 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-cache_2.10;2.2.3->net.sf.ehcache#ehcache-core;2.6.6 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-cache_2.10;2.2.3->net.sf.ehcache#ehcache-core;2.6.6 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.sf.ehcache#ehcache-core;2.6.6->org.slf4j#slf4j-api;1.6.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.hibernate#hibernate-core;3.5.1-Final {provided=[compile(*), provided(*), runtime(*), master(*)]} => dependency: org.hibernate#hibernate-core;3.3.2.GA {provided=[compile(*), provided(*), runtime(*), master(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-logging#commons-logging;1.1.1 {test=[runtime(*), master(*)]} => dependency: commons-logging#commons-logging;1.0.4 {test=[runtime(*), master(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.sf.ehcache#ehcache-core;2.6.6->org.slf4j#slf4j-api;1.7.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.sf.ehcache#ehcache-core;2.6.6->org.slf4j#slf4j-api;1.6.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.sf.ehcache#ehcache-core;2.6.6->org.slf4j#slf4j-api;1.7.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.sf.ehcache#ehcache-core;2.6.6->org.slf4j#slf4j-api;1.6.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.sf.ehcache#ehcache-core;2.6.6->org.slf4j#slf4j-api;1.7.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.sf.ehcache#ehcache-core;2.6.6->org.slf4j#slf4j-api;1.7.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-cache_2.10;2.2.3->net.sf.ehcache#ehcache-core;2.6.6 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#nutrition_2.10;1.0-SNAPSHOT->com.typesafe.play#play_2.10;2.2.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#nutrition_2.10;1.0-SNAPSHOT->com.typesafe.play#play-java_2.10;2.2.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#nutrition_2.10;1.0-SNAPSHOT [optional][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test-internal'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for forms#forms_2.10;1.0 [test-internal][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for forms#forms_2.10;1.0 [test][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for forms#forms_2.10;1.0 [runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for forms#forms_2.10;1.0 [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies forms#forms_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies forms#forms_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies forms#forms_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies forms#forms_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies forms#forms_2.10;1.0->com.typesafe.play#play_2.10;2.2.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#nutrition_2.10;1.0-SNAPSHOT [test-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#nutrition_2.10;1.0-SNAPSHOT [test][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#nutrition_2.10;1.0-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#nutrition_2.10;1.0-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#nutrition_2.10;1.0-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#nutrition_2.10;1.0-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#nutrition_2.10;1.0-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#nutrition_2.10;1.0-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#nutrition_2.10;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.10;2.2.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-jdbc_2.10;2.2.3->com.typesafe.play#play-jdbc_2.10;2.2.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc_2.10;2.2.3->com.typesafe.play#play_2.10;2.2.3 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.10;2.2.3->com.typesafe.play#sbt-link;2.2.3 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#sbt-link;2.2.3->org.javassist#javassist;3.18.0-GA [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#sbt-link;2.2.3->org.javassist#javassist;3.18.0-GA [compile->runtime][0m
@@ -3397,7 +3779,33 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.10;2.2.3->org.scala-lang#scala-reflect;2.10.3 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.10;2.2.3->org.scala-lang#scala-reflect;2.10.3 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play_2.10;2.2.3->org.scala-lang#scala-reflect;2.10.3 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies forms#forms_2.10;1.0->com.typesafe.play#play-java_2.10;2.2.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc_2.10;2.2.3->com.jolbox#bonecp;0.8.0.RELEASE [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc_2.10;2.2.3->com.jolbox#bonecp;0.8.0.RELEASE [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc_2.10;2.2.3->com.jolbox#bonecp;0.8.0.RELEASE [compile->compile][0m
+[0m[[0mdebug[0m] [0mexcluding dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.jolbox#bonecp;0.8.0.RELEASE->org.slf4j#slf4j-api;1.7.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mexcluding dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.jolbox#bonecp;0.8.0.RELEASE->org.slf4j#slf4j-api;1.7.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.jolbox#bonecp;0.8.0.RELEASE->org.slf4j#slf4j-api;1.7.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.jolbox#bonecp;0.8.0.RELEASE->org.slf4j#slf4j-api;1.7.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mexcluding dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in runtime[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.jolbox#bonecp;0.8.0.RELEASE->org.slf4j#slf4j-api;1.7.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.jolbox#bonecp;0.8.0.RELEASE->org.slf4j#slf4j-api;1.7.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.jolbox#bonecp;0.8.0.RELEASE->org.slf4j#slf4j-api;1.7.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc_2.10;2.2.3->com.jolbox#bonecp;0.8.0.RELEASE [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc_2.10;2.2.3->com.google.guava#guava;14.0.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc_2.10;2.2.3->com.google.guava#guava;14.0.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc_2.10;2.2.3->com.google.guava#guava;14.0.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc_2.10;2.2.3->com.google.guava#guava;14.0.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc_2.10;2.2.3->com.h2database#h2;1.3.172 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc_2.10;2.2.3->com.h2database#h2;1.3.172 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc_2.10;2.2.3->com.h2database#h2;1.3.172 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc_2.10;2.2.3->com.h2database#h2;1.3.172 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc_2.10;2.2.3->tyrex#tyrex;1.0.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc_2.10;2.2.3->tyrex#tyrex;1.0.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc_2.10;2.2.3->tyrex#tyrex;1.0.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-jdbc_2.10;2.2.3->tyrex#tyrex;1.0.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-jdbc_2.10;2.2.3->com.typesafe.play#play-java_2.10;2.2.3 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.10;2.2.3->com.typesafe.play#play_2.10;2.2.3 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.10;2.2.3->org.yaml#snakeyaml;1.12 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.10;2.2.3->org.yaml#snakeyaml;1.12 [compile->runtime][0m
@@ -3457,7 +3865,44 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.10;2.2.3->javax.servlet#javax.servlet-api;3.0.1 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.10;2.2.3->javax.servlet#javax.servlet-api;3.0.1 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java_2.10;2.2.3->javax.servlet#javax.servlet-api;3.0.1 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies forms#forms_2.10;1.0->com.typesafe.play#play-test_2.10;2.2.3 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-jdbc_2.10;2.2.3->org.scala-lang#scala-library;2.10.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-jdbc_2.10;2.2.3->org.scala-lang#scala-library;2.10.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-jdbc_2.10;2.2.3->org.scala-lang#scala-library;2.10.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-jdbc_2.10;2.2.3->org.scala-lang#scala-library;2.10.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#nutrition_2.10;1.0-SNAPSHOT->com.typesafe.play#play-java-ebean_2.10;2.2.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ebean_2.10;2.2.3->com.typesafe.play#play-java-jdbc_2.10;2.2.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ebean_2.10;2.2.3->org.avaje.ebeanorm#avaje-ebeanorm;3.2.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ebean_2.10;2.2.3->org.avaje.ebeanorm#avaje-ebeanorm;3.2.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ebean_2.10;2.2.3->org.avaje.ebeanorm#avaje-ebeanorm;3.2.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0mexcluding dependency: javax.persistence#persistence-api;1.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
+[0m[[0mdebug[0m] [0mexcluding dependency: javax.persistence#persistence-api;1.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in runtime[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ebean_2.10;2.2.3->org.avaje.ebeanorm#avaje-ebeanorm;3.2.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ebean_2.10;2.2.3->org.avaje.ebeanorm#avaje-ebeanorm-agent;3.2.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ebean_2.10;2.2.3->org.avaje.ebeanorm#avaje-ebeanorm-agent;3.2.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ebean_2.10;2.2.3->org.avaje.ebeanorm#avaje-ebeanorm-agent;3.2.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ebean_2.10;2.2.3->org.avaje.ebeanorm#avaje-ebeanorm-agent;3.2.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ebean_2.10;2.2.3->org.hibernate.javax.persistence#hibernate-jpa-2.0-api;1.0.1.Final [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ebean_2.10;2.2.3->org.hibernate.javax.persistence#hibernate-jpa-2.0-api;1.0.1.Final [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ebean_2.10;2.2.3->org.hibernate.javax.persistence#hibernate-jpa-2.0-api;1.0.1.Final [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ebean_2.10;2.2.3->org.hibernate.javax.persistence#hibernate-jpa-2.0-api;1.0.1.Final [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#nutrition_2.10;1.0-SNAPSHOT->com.typesafe.play#play-cache_2.10;2.2.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-cache_2.10;2.2.3->com.typesafe.play#play_2.10;2.2.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-cache_2.10;2.2.3->net.sf.ehcache#ehcache-core;2.6.6 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-cache_2.10;2.2.3->net.sf.ehcache#ehcache-core;2.6.6 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-cache_2.10;2.2.3->net.sf.ehcache#ehcache-core;2.6.6 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.sf.ehcache#ehcache-core;2.6.6->org.slf4j#slf4j-api;1.6.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.hibernate#hibernate-core;3.5.1-Final {provided=[compile(*), provided(*), runtime(*), master(*)]} => dependency: org.hibernate#hibernate-core;3.3.2.GA {provided=[compile(*), provided(*), runtime(*), master(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-logging#commons-logging;1.1.1 {test=[runtime(*), master(*)]} => dependency: commons-logging#commons-logging;1.0.4 {test=[runtime(*), master(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.sf.ehcache#ehcache-core;2.6.6->org.slf4j#slf4j-api;1.7.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.sf.ehcache#ehcache-core;2.6.6->org.slf4j#slf4j-api;1.6.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.sf.ehcache#ehcache-core;2.6.6->org.slf4j#slf4j-api;1.7.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.sf.ehcache#ehcache-core;2.6.6->org.slf4j#slf4j-api;1.6.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.sf.ehcache#ehcache-core;2.6.6->org.slf4j#slf4j-api;1.7.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.sf.ehcache#ehcache-core;2.6.6->org.slf4j#slf4j-api;1.7.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-cache_2.10;2.2.3->net.sf.ehcache#ehcache-core;2.6.6 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#nutrition_2.10;1.0-SNAPSHOT->com.typesafe.play#play_2.10;2.2.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#nutrition_2.10;1.0-SNAPSHOT->com.typesafe.play#play-java_2.10;2.2.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#nutrition_2.10;1.0-SNAPSHOT->com.typesafe.play#play-test_2.10;2.2.3 [test->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-test_2.10;2.2.3->com.typesafe.play#play_2.10;2.2.3 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-test_2.10;2.2.3->junit#junit;4.11 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-test_2.10;2.2.3->junit#junit;4.11 [compile->runtime][0m
@@ -4144,15 +4589,15 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.easytesting#fest-assert;1.4->org.easytesting#fest-util;1.1.6 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.easytesting#fest-assert;1.4->org.easytesting#fest-util;1.1.6 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-test_2.10;2.2.3->org.fluentlenium#fluentlenium-festassert;0.8.0 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for forms#forms_2.10;1.0 [optional][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for forms#forms_2.10;1.0 [provided][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#nutrition_2.10;1.0-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#nutrition_2.10;1.0-SNAPSHOT [provided][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'plugin'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for forms#forms_2.10;1.0 [plugin][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#nutrition_2.10;1.0-SNAPSHOT [plugin][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'sources'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for forms#forms_2.10;1.0 [sources][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#nutrition_2.10;1.0-SNAPSHOT [sources][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'docs'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for forms#forms_2.10;1.0 [docs][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies forms#forms_2.10;1.0->com.typesafe.play#play-docs_2.10;2.2.3 [docs->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#nutrition_2.10;1.0-SNAPSHOT [docs][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#nutrition_2.10;1.0-SNAPSHOT->com.typesafe.play#play-docs_2.10;2.2.3 [docs->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.typesafe.play#play-docs_2.10;2.2.3 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.play#play-docs_2.10;2.2.3 {docs=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.play#play-docs_2.10;2.2.3[0m
@@ -4602,17 +5047,17 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.3 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.3 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'pom'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for forms#forms_2.10;1.0 [pom][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#nutrition_2.10;1.0-SNAPSHOT [pom][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'scala-tool'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for forms#forms_2.10;1.0 [scala-tool][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies forms#forms_2.10;1.0->org.scala-lang#scala-compiler;2.10.3 [scala-tool->default][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#nutrition_2.10;1.0-SNAPSHOT [scala-tool][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#nutrition_2.10;1.0-SNAPSHOT->org.scala-lang#scala-compiler;2.10.3 [scala-tool->default][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-compiler;2.10.3 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-compiler;2.10.3 {scala-tool=[default, optional(default)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.10.3[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#scala-compiler;2.10.3[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-compiler;2.10.3 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies forms#forms_2.10;1.0->org.scala-lang#scala-compiler;2.10.3 [scala-tool->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies forms#forms_2.10;1.0->org.scala-lang#scala-compiler;2.10.3 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#nutrition_2.10;1.0-SNAPSHOT->org.scala-lang#scala-compiler;2.10.3 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#nutrition_2.10;1.0-SNAPSHOT->org.scala-lang#scala-compiler;2.10.3 [scala-tool->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#scala-library;2.10.3 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#scala-library;2.10.3 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#scala-library;2.10.3 [compile->default][0m
@@ -4630,8 +5075,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#scala-reflect;2.10.3 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.3->org.scala-lang#scala-library;2.10.3 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.3->org.scala-lang#scala-library;2.10.3 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies forms#forms_2.10;1.0->org.scala-lang#scala-compiler;2.10.3 [scala-tool->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies forms#forms_2.10;1.0->org.scala-lang#scala-compiler;2.10.3 [scala-tool->optional(default)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#nutrition_2.10;1.0-SNAPSHOT->org.scala-lang#scala-compiler;2.10.3 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#nutrition_2.10;1.0-SNAPSHOT->org.scala-lang#scala-compiler;2.10.3 [scala-tool->optional(default)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#jline;2.10.3 [optional->master(*)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#jline;2.10.3 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#jline;2.10.3 {optional=[compile(*), master(*)]}[0m
@@ -4646,16 +5091,24 @@
 [0m[[0mdebug[0m] [0m	local: revision in cache: org.fusesource.jansi#jansi;1.4[0m
 [0m[[0mdebug[0m] [0m	found org.fusesource.jansi#jansi;1.4 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#jline;2.10.3->org.fusesource.jansi#jansi;1.4 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies forms#forms_2.10;1.0->org.scala-lang#scala-library;2.10.3 [scala-tool->default][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies forms#forms_2.10;1.0->org.scala-lang#scala-library;2.10.3 [scala-tool->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies forms#forms_2.10;1.0->org.scala-lang#scala-library;2.10.3 [scala-tool->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies forms#forms_2.10;1.0->org.scala-lang#scala-library;2.10.3 [scala-tool->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies forms#forms_2.10;1.0->org.scala-lang#scala-library;2.10.3 [scala-tool->optional(default)][0m
-[0m[[0mdebug[0m] [0m	resolved ivy file produced in /Users/gouravjeet/Documents/play-2.2.3/samples/NutriG/target/resolution-cache/forms/forms_2.10/1.0/resolved.xml.xml[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#nutrition_2.10;1.0-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [scala-tool->default][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#nutrition_2.10;1.0-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#nutrition_2.10;1.0-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#nutrition_2.10;1.0-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#nutrition_2.10;1.0-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [scala-tool->optional(default)][0m
+[0m[[0mdebug[0m] [0m	resolved ivy file produced in /Users/gouravjeet/Documents/play-2.2.3/nutrition/target/resolution-cache/default/nutrition_2.10/1.0-SNAPSHOT/resolved.xml.xml[0m
 [0m[[0mdebug[0m] [0m:: downloading artifacts ::[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.10.3!scala-library.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.play#play-java-jdbc_2.10;2.2.3!play-java-jdbc_2.10.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.play#play-java-ebean_2.10;2.2.3!play-java-ebean_2.10.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.play#play-cache_2.10;2.2.3!play-cache_2.10.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.play#play_2.10;2.2.3!play_2.10.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.play#play-java_2.10;2.2.3!play-java_2.10.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.play#play-jdbc_2.10;2.2.3!play-jdbc_2.10.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.jolbox#bonecp;0.8.0.RELEASE!bonecp.jar(bundle)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.google.guava#guava;14.0.1!guava.jar(bundle)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.h2database#h2;1.3.172!h2.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] tyrex#tyrex;1.0.1!tyrex.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.play#sbt-link;2.2.3!sbt-link.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.play#play-exceptions;2.2.3!play-exceptions.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.play#templates_2.10;2.2.3!templates_2.10.jar[0m
@@ -4701,12 +5154,15 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.springframework#spring-core;3.2.3.RELEASE!spring-core.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.springframework#spring-beans;3.2.3.RELEASE!spring-beans.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.reflections#reflections;0.9.8!reflections.jar[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.google.guava#guava;14.0.1!guava.jar(bundle)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.google.code.findbugs#jsr305;2.0.1!jsr305.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] javax.servlet#javax.servlet-api;3.0.1!javax.servlet-api.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] javax.validation#validation-api;1.1.0.Final!validation-api.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.jboss.logging#jboss-logging;3.1.1.GA!jboss-logging.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.fasterxml#classmate;0.8.0!classmate.jar(bundle)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.avaje.ebeanorm#avaje-ebeanorm;3.2.2!avaje-ebeanorm.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.avaje.ebeanorm#avaje-ebeanorm-agent;3.2.1!avaje-ebeanorm-agent.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.hibernate.javax.persistence#hibernate-jpa-2.0-api;1.0.1.Final!hibernate-jpa-2.0-api.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] net.sf.ehcache#ehcache-core;2.6.6!ehcache-core.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.play#play-test_2.10;2.2.3!play-test_2.10.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] junit#junit;4.11!junit.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.specs2#specs2_2.10;2.1.1!specs2_2.10.jar[0m
@@ -4767,19 +5223,19 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.10.3!scala-compiler.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#jline;2.10.3!jline.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 1714ms :: artifacts dl 79ms[0m
-[0m[[0mdebug[0m] [0m	report for forms#forms_2.10;1.0 compile produced in /Users/gouravjeet/Documents/play-2.2.3/samples/NutriG/target/resolution-cache/reports/forms-forms_2.10-compile.xml[0m
-[0m[[0mdebug[0m] [0m	report for forms#forms_2.10;1.0 runtime produced in /Users/gouravjeet/Documents/play-2.2.3/samples/NutriG/target/resolution-cache/reports/forms-forms_2.10-runtime.xml[0m
-[0m[[0mdebug[0m] [0m	report for forms#forms_2.10;1.0 test produced in /Users/gouravjeet/Documents/play-2.2.3/samples/NutriG/target/resolution-cache/reports/forms-forms_2.10-test.xml[0m
-[0m[[0mdebug[0m] [0m	report for forms#forms_2.10;1.0 provided produced in /Users/gouravjeet/Documents/play-2.2.3/samples/NutriG/target/resolution-cache/reports/forms-forms_2.10-provided.xml[0m
-[0m[[0mdebug[0m] [0m	report for forms#forms_2.10;1.0 optional produced in /Users/gouravjeet/Documents/play-2.2.3/samples/NutriG/target/resolution-cache/reports/forms-forms_2.10-optional.xml[0m
-[0m[[0mdebug[0m] [0m	report for forms#forms_2.10;1.0 compile-internal produced in /Users/gouravjeet/Documents/play-2.2.3/samples/NutriG/target/resolution-cache/reports/forms-forms_2.10-compile-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for forms#forms_2.10;1.0 runtime-internal produced in /Users/gouravjeet/Documents/play-2.2.3/samples/NutriG/target/resolution-cache/reports/forms-forms_2.10-runtime-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for forms#forms_2.10;1.0 test-internal produced in /Users/gouravjeet/Documents/play-2.2.3/samples/NutriG/target/resolution-cache/reports/forms-forms_2.10-test-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for forms#forms_2.10;1.0 plugin produced in /Users/gouravjeet/Documents/play-2.2.3/samples/NutriG/target/resolution-cache/reports/forms-forms_2.10-plugin.xml[0m
-[0m[[0mdebug[0m] [0m	report for forms#forms_2.10;1.0 sources produced in /Users/gouravjeet/Documents/play-2.2.3/samples/NutriG/target/resolution-cache/reports/forms-forms_2.10-sources.xml[0m
-[0m[[0mdebug[0m] [0m	report for forms#forms_2.10;1.0 docs produced in /Users/gouravjeet/Documents/play-2.2.3/samples/NutriG/target/resolution-cache/reports/forms-forms_2.10-docs.xml[0m
-[0m[[0mdebug[0m] [0m	report for forms#forms_2.10;1.0 pom produced in /Users/gouravjeet/Documents/play-2.2.3/samples/NutriG/target/resolution-cache/reports/forms-forms_2.10-pom.xml[0m
-[0m[[0mdebug[0m] [0m	report for forms#forms_2.10;1.0 scala-tool produced in /Users/gouravjeet/Documents/play-2.2.3/samples/NutriG/target/resolution-cache/reports/forms-forms_2.10-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (1714ms resolve - 79ms download)[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 1978ms :: artifacts dl 127ms[0m
+[0m[[0mdebug[0m] [0m	report for default#nutrition_2.10;1.0-SNAPSHOT compile produced in /Users/gouravjeet/Documents/play-2.2.3/nutrition/target/resolution-cache/reports/default-nutrition_2.10-compile.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#nutrition_2.10;1.0-SNAPSHOT runtime produced in /Users/gouravjeet/Documents/play-2.2.3/nutrition/target/resolution-cache/reports/default-nutrition_2.10-runtime.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#nutrition_2.10;1.0-SNAPSHOT test produced in /Users/gouravjeet/Documents/play-2.2.3/nutrition/target/resolution-cache/reports/default-nutrition_2.10-test.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#nutrition_2.10;1.0-SNAPSHOT provided produced in /Users/gouravjeet/Documents/play-2.2.3/nutrition/target/resolution-cache/reports/default-nutrition_2.10-provided.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#nutrition_2.10;1.0-SNAPSHOT optional produced in /Users/gouravjeet/Documents/play-2.2.3/nutrition/target/resolution-cache/reports/default-nutrition_2.10-optional.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#nutrition_2.10;1.0-SNAPSHOT compile-internal produced in /Users/gouravjeet/Documents/play-2.2.3/nutrition/target/resolution-cache/reports/default-nutrition_2.10-compile-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#nutrition_2.10;1.0-SNAPSHOT runtime-internal produced in /Users/gouravjeet/Documents/play-2.2.3/nutrition/target/resolution-cache/reports/default-nutrition_2.10-runtime-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#nutrition_2.10;1.0-SNAPSHOT test-internal produced in /Users/gouravjeet/Documents/play-2.2.3/nutrition/target/resolution-cache/reports/default-nutrition_2.10-test-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#nutrition_2.10;1.0-SNAPSHOT plugin produced in /Users/gouravjeet/Documents/play-2.2.3/nutrition/target/resolution-cache/reports/default-nutrition_2.10-plugin.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#nutrition_2.10;1.0-SNAPSHOT sources produced in /Users/gouravjeet/Documents/play-2.2.3/nutrition/target/resolution-cache/reports/default-nutrition_2.10-sources.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#nutrition_2.10;1.0-SNAPSHOT docs produced in /Users/gouravjeet/Documents/play-2.2.3/nutrition/target/resolution-cache/reports/default-nutrition_2.10-docs.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#nutrition_2.10;1.0-SNAPSHOT pom produced in /Users/gouravjeet/Documents/play-2.2.3/nutrition/target/resolution-cache/reports/default-nutrition_2.10-pom.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#nutrition_2.10;1.0-SNAPSHOT scala-tool produced in /Users/gouravjeet/Documents/play-2.2.3/nutrition/target/resolution-cache/reports/default-nutrition_2.10-scala-tool.xml[0m
+[0m[[0mdebug[0m] [0m	resolve done (1978ms resolve - 127ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m

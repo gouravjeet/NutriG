@@ -1,4 +1,4 @@
-This is a dummy application presenting several typical form usages. It demonstrates:
+This is your new Play application
+=====================================
 
-- Writing complex forms with validation.
-- Handling forms with dynamically repeated values.
+This file will be packaged with your application, when using `play dist`.

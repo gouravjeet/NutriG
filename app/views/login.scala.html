@@ -1,33 +1,33 @@
-@(form: Form[Application.Login])
+@(userForm: Form[User])
+@import helper._
+@import helper.twitterBootstrap._
 
-@main(Html("Login")){
+@main("Example"){
 <html>
-    <head>
-        <title>NutriG</title>
-        <link rel="shortcut icon" type="image/png" href="@routes.Assets.at("images/favicon.png")">
-        <link rel="stylesheet" type="text/css" media="screen" href="@routes.Assets.at("stylesheets/main.css")">
-        <link rel="stylesheet" type="text/css" media="screen" href="@routes.Assets.at("stylesheets/boostrap.css")">
-    	<script type="text/javascript" src="@routes.Assets.at("javascripts/jquery-1.7.1.js")"></script>
-        <script type="text/javascript" src="@routes.Assets.at("javascripts/jquery-play-1.7.1.js")"></script>
-        <script type="text/javascript" src="@routes.Assets.at("javascripts/underscore-min.js")"></script>
-        <script type="text/javascript" src="@routes.Assets.at("javascripts/backbone-min.js")"></script>
-        <script type="text/javascript" src="@routes.Assets.at("javascripts/main.js")"></script>
-    </head>
-    <body>
-            <header>
-           
-                <p>
-                <input type="email" name="email" placeholder="Email" value="@form("email").value">
-            </p>
-            <p>
-                <input type="password" name="password" placeholder="Password">
-            </p>
-            <p>
-                <button type="submit" class="btn primary">Login</button>
-                <a href="">    Forget Password</a>
-            </p>
-            
-        </header>
-    </body>
-    </html>
-}    
+<title="NutriG"></title>
+
+<head>
+<link rel="stylesheet" media="screen" href="@routes.Assets.at("stylesheets/main.css")">
+<link rel="stylesheet" type="text/css" media="screen" href="@routes.Assets.at("stylesheets/bootstrap.css")">
+
+<body>
+<h1>NutriG</h1>
+
+ 
+
+
+@helper.form(action = routes.Application.submit(),'id -> "userForm") {
+    
+    @helper.inputText(userForm("email"))
+    
+    @helper.inputPassword(userForm("password"))
+    
+    <input type="submit" class="btn-primary" value="Login">
+    }
+
+
+
+</body>
+</head>
+</html>
+}

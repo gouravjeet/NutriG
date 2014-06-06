@@ -1,47 +1,31 @@
 package controllers;
 
-import models.Contact;
-import play.data.Form;
+import play.*;
 import play.mvc.*;
+import models.User;
 
 import views.html.*;
-import static play.data.Form.*;
 
-
+import play.data.*;
+import play.data.validation.Constraints.Required;
 public class Application extends Controller {
-	
-	 public static class Login {
-	        
-	        public String email;
-	        public String password;
-	        
-	        public String validate() {
-	        return null;    
-	          }
-	        
-	    }
-	
-	final static Form<Login> loginform = form(Login.class);
-	 
-    public static Result index() {
-        return ok(index.render());
-    }
-    public static Result features() {
-        return ok(features.render());
-    }
-    public static Result login(){
-    	return ok(login.render(loginform));
-    	
-    }
-    public static Result authenticate() {
-    	return TODO;
-    }
 
-    /**
-     * Logout and clean the session.
-     */
-    public static Result logout() {
-    	return TODO;
+	
+	final static Form<User> userForm=Form.form(User.class);
+	
+    public static Result index() {
+        return ok(login.render(userForm));
     }
-  
+    
+        
+    public static Result submit() {
+    	Form<User> filledForm=userForm.bindFromRequest();
+    	User created=filledForm.get();
+    	session("email", filledForm.get().email);
+    	return ok(products.render(created));
+    	 
+   
+    	 
+    }
+    
 }

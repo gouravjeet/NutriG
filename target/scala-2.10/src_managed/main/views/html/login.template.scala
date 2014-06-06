@@ -20,61 +20,63 @@ import play.api.data.Field
 import play.mvc.Http.Context.Implicit._
 import views.html._
 /**/
-object login extends BaseScalaTemplate[play.api.templates.HtmlFormat.Appendable,Format[play.api.templates.HtmlFormat.Appendable]](play.api.templates.HtmlFormat) with play.api.templates.Template1[Form[Application.Login],play.api.templates.HtmlFormat.Appendable] {
+object login extends BaseScalaTemplate[play.api.templates.HtmlFormat.Appendable,Format[play.api.templates.HtmlFormat.Appendable]](play.api.templates.HtmlFormat) with play.api.templates.Template1[Form[User],play.api.templates.HtmlFormat.Appendable] {
 
     /**/
-    def apply/*1.2*/(form: Form[Application.Login]):play.api.templates.HtmlFormat.Appendable = {
-        _display_ {
+    def apply/*1.2*/(userForm: Form[User]):play.api.templates.HtmlFormat.Appendable = {
+        _display_ {import helper._
 
-Seq[Any](format.raw/*1.33*/("""
+import helper.twitterBootstrap._
 
-"""),_display_(Seq[Any](/*3.2*/main(Html("Login"))/*3.21*/{_display_(Seq[Any](format.raw/*3.22*/("""
+
+Seq[Any](format.raw/*1.24*/("""
+"""),format.raw/*4.1*/("""
+"""),_display_(Seq[Any](/*5.2*/main("Example")/*5.17*/{_display_(Seq[Any](format.raw/*5.18*/("""
 <html>
-    <head>
-        <title>NutriG</title>
-        <link rel="shortcut icon" type="image/png" href=""""),_display_(Seq[Any](/*7.59*/routes/*7.65*/.Assets.at("images/favicon.png"))),format.raw/*7.97*/("""">
-        <link rel="stylesheet" type="text/css" media="screen" href=""""),_display_(Seq[Any](/*8.70*/routes/*8.76*/.Assets.at("stylesheets/main.css"))),format.raw/*8.110*/("""">
-        <link rel="stylesheet" type="text/css" media="screen" href=""""),_display_(Seq[Any](/*9.70*/routes/*9.76*/.Assets.at("stylesheets/boostrap.css"))),format.raw/*9.114*/("""">
-    	<script type="text/javascript" src=""""),_display_(Seq[Any](/*10.43*/routes/*10.49*/.Assets.at("javascripts/jquery-1.7.1.js"))),format.raw/*10.90*/(""""></script>
-        <script type="text/javascript" src=""""),_display_(Seq[Any](/*11.46*/routes/*11.52*/.Assets.at("javascripts/jquery-play-1.7.1.js"))),format.raw/*11.98*/(""""></script>
-        <script type="text/javascript" src=""""),_display_(Seq[Any](/*12.46*/routes/*12.52*/.Assets.at("javascripts/underscore-min.js"))),format.raw/*12.95*/(""""></script>
-        <script type="text/javascript" src=""""),_display_(Seq[Any](/*13.46*/routes/*13.52*/.Assets.at("javascripts/backbone-min.js"))),format.raw/*13.93*/(""""></script>
-        <script type="text/javascript" src=""""),_display_(Seq[Any](/*14.46*/routes/*14.52*/.Assets.at("javascripts/main.js"))),format.raw/*14.85*/(""""></script>
-    </head>
-    <body>
-            <header>
-           
-                <p>
-                <input type="email" name="email" placeholder="Email" value=""""),_display_(Seq[Any](/*20.78*/form("email")/*20.91*/.value)),format.raw/*20.97*/("""">
-            </p>
-            <p>
-                <input type="password" name="password" placeholder="Password">
-            </p>
-            <p>
-                <button type="submit" class="btn primary">Login</button>
-                <a href="">    Forget Password</a>
-            </p>
-            
-        </header>
-    </body>
-    </html>
-""")))})),format.raw/*33.2*/("""    """))}
+<title="NutriG"></title>
+
+<head>
+<link rel="stylesheet" media="screen" href=""""),_display_(Seq[Any](/*10.46*/routes/*10.52*/.Assets.at("stylesheets/main.css"))),format.raw/*10.86*/("""">
+<link rel="stylesheet" type="text/css" media="screen" href=""""),_display_(Seq[Any](/*11.62*/routes/*11.68*/.Assets.at("stylesheets/bootstrap.css"))),format.raw/*11.107*/("""">
+
+<body>
+<h1>NutriG</h1>
+
+ 
+
+
+"""),_display_(Seq[Any](/*19.2*/helper/*19.8*/.form(action = routes.Application.submit(),'id -> "userForm")/*19.69*/ {_display_(Seq[Any](format.raw/*19.71*/("""
+    
+    """),_display_(Seq[Any](/*21.6*/helper/*21.12*/.inputText(userForm("email")))),format.raw/*21.41*/("""
+    
+    """),_display_(Seq[Any](/*23.6*/helper/*23.12*/.inputPassword(userForm("password")))),format.raw/*23.48*/("""
+    
+    <input type="submit" class="btn-primary" value="Login">
+    """)))})),format.raw/*26.6*/("""
+
+
+
+</body>
+</head>
+</html>
+""")))})),format.raw/*33.2*/("""
+"""))}
     }
     
-    def render(form:Form[Application.Login]): play.api.templates.HtmlFormat.Appendable = apply(form)
+    def render(userForm:Form[User]): play.api.templates.HtmlFormat.Appendable = apply(userForm)
     
-    def f:((Form[Application.Login]) => play.api.templates.HtmlFormat.Appendable) = (form) => apply(form)
+    def f:((Form[User]) => play.api.templates.HtmlFormat.Appendable) = (userForm) => apply(userForm)
     
     def ref: this.type = this
 
 }
                 /*
                     -- GENERATED --
-                    DATE: Thu Jun 05 18:19:37 EDT 2014
-                    SOURCE: /Users/gouravjeet/Documents/play-2.2.3/samples/NutriG/app/views/login.scala.html
-                    HASH: 328e3dcdb172cae6315acbc5d376a7dd5f31e0b9
-                    MATRIX: 791->1|916->32|953->35|980->54|1018->55|1160->162|1174->168|1227->200|1334->272|1348->278|1404->312|1511->384|1525->390|1585->428|1666->473|1681->479|1744->520|1837->577|1852->583|1920->629|2013->686|2028->692|2093->735|2186->792|2201->798|2264->839|2357->896|2372->902|2427->935|2628->1100|2650->1113|2678->1119|3054->1464
-                    LINES: 26->1|29->1|31->3|31->3|31->3|35->7|35->7|35->7|36->8|36->8|36->8|37->9|37->9|37->9|38->10|38->10|38->10|39->11|39->11|39->11|40->12|40->12|40->12|41->13|41->13|41->13|42->14|42->14|42->14|48->20|48->20|48->20|61->33
+                    DATE: Fri Jun 06 01:51:31 EDT 2014
+                    SOURCE: /Users/gouravjeet/Documents/play-2.2.3/nutrition/app/views/login.scala.html
+                    HASH: d3ef4a331e56f1ab1044a64ea40b381ebb0e1128
+                    MATRIX: 778->1|944->23|971->75|1007->77|1030->92|1068->93|1190->179|1205->185|1261->219|1361->283|1376->289|1438->328|1506->361|1520->367|1590->428|1630->430|1676->441|1691->447|1742->476|1788->487|1803->493|1861->529|1963->600|2023->629
+                    LINES: 26->1|32->1|33->4|34->5|34->5|34->5|39->10|39->10|39->10|40->11|40->11|40->11|48->19|48->19|48->19|48->19|50->21|50->21|50->21|52->23|52->23|52->23|55->26|62->33
                     -- GENERATED --
                 */
             
